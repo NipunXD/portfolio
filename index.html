@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nipun Arora | Portfolio</title>
+
+    <meta
+      name="description"
+      content="Nipun Arora — Full-stack developer building production-grade systems, AI applications, and scalable backend infrastructure."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="grain"></div>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">Nipun Arora</a>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio / 2026 Edition</p>
+
+          <h1>
+            Building production systems that feel
+            <span>fast, scalable, and real.</span>
+          </h1>
+
+          <p class="hero-text">
+            I’m Nipun Arora — a full-stack developer focused on building
+            production-grade systems, AI-driven applications, and scalable backend
+            architectures. I design, deploy, and ship complete products — from APIs
+            and infrastructure to user-facing interfaces.
+          </p>
+
+          <p class="hero-proof">
+            AWS (S3, EC2) • Docker • Nginx • REST APIs • Microservices • BERT/NLP
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">See My Work</a>
+            <a
+              class="button button-secondary"
+              href="./Nipun-Arora-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-stage">
+          <div class="orbital-card">
+            <p>Currently building</p>
+            <strong>
+              Full-stack systems, AI pipelines, and cloud-deployed applications.
+            </strong>
+          </div>
+
+          <div class="floating-stats">
+            <article>
+              <span>06</span>
+              <p>production-focused builds</p>
+            </article>
+            <article>
+              <span>AI</span>
+              <p>applied ML + real systems</p>
+            </article>
+            <article>
+              <span>∞</span>
+              <p>scaling ideas into products</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT I DO -->
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">What I Do</p>
+          <h2>I build systems, not just interfaces.</h2>
+        </div>
+
+        <div class="intro-grid">
+          <p>
+            I specialize in building complete, production-ready systems — backend APIs,
+            cloud infrastructure, and frontend applications working together.
+          </p>
+
+          <p>
+            My work focuses on combining AI models, scalable architecture, and
+            real-world usability to create products that are deployable, reliable,
+            and built for actual users.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Projects</p>
+          <h2>Real systems. Built and deployed.</h2>
+        </div>
+
+        <div class="project-grid">
+          <!-- AetherDrop -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-aether"></div>
+            <div class="project-content">
+              <p class="project-index">01</p>
+              <h3>AetherDrop</h3>
+
+              <p>
+                Secure file-sharing platform with expiring links, download limits,
+                and cloud-backed storage.
+              </p>
+
+              <ul>
+                <li>Node.js + Express backend APIs</li>
+                <li>AWS S3 secure storage integration</li>
+                <li>ZIP streaming for multi-file downloads</li>
+                <li>Dockerized + deployed on AWS EC2</li>
+                <li>Nginx reverse proxy + Cloudflare Tunnel</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/aetherdrop"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <!-- Risk Stratification -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-risk"></div>
+            <div class="project-content">
+              <p class="project-index">02</p>
+              <h3>Patient Risk Stratification</h3>
+
+              <p>
+                AI system predicting hospital readmissions using clinical notes.
+              </p>
+
+              <ul>
+                <li>Fine-tuned ClinicalBERT (MIMIC-III dataset)</li>
+                <li>Flask ML inference API</li>
+                <li>Next.js clinician dashboard</li>
+                <li>Microservice architecture</li>
+                <li>~90% accuracy on evaluation</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/Patient-Risk-Stratification"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <!-- Maitri -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-maitri"></div>
+            <div class="project-content">
+              <p class="project-index">03</p>
+              <h3>Maitri AI</h3>
+
+              <p>
+                Offline AI assistant for emotional support in constrained environments.
+              </p>
+
+              <ul>
+                <li>LLaMA-based local inference (Ollama)</li>
+                <li>Emotion detection via DeepFace + OpenCV</li>
+                <li>Sentiment-aware conversational system</li>
+                <li>Session tracking + structured UI</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/Maitri-AI"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <!-- TruthGuard -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-truth"></div>
+            <div class="project-content">
+              <p class="project-index">04</p>
+              <h3>TruthGuard</h3>
+
+              <p>
+                NLP-based fake news detection engine with explainability features.
+              </p>
+
+              <ul>
+                <li>BERT trained on 72k+ articles</li>
+                <li>Confidence scoring + explainability</li>
+                <li>API-ready classification engine</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/TruthGuard"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <!-- EcoRate -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-eco"></div>
+            <div class="project-content">
+              <p class="project-index">05</p>
+              <h3>EcoRate</h3>
+
+              <p>
+                ML-based system predicting sustainability scores from lifestyle data.
+              </p>
+
+              <ul>
+                <li>Regression + ensemble models</li>
+                <li>R² = 0.71, MSE = 0.73</li>
+                <li>Feature engineering + dashboard</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/EcoRate"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <!-- Heritage -->
+          <article class="project-card reveal" data-tilt>
+            <div class="project-surface surface-heritage"></div>
+            <div class="project-content">
+              <p class="project-index">06</p>
+              <h3>HeritageVault</h3>
+
+              <p>
+                Blockchain-based system for tracking ownership of cultural assets.
+              </p>
+
+              <ul>
+                <li>Smart contracts (Solidity)</li>
+                <li>Immutable ownership ledger</li>
+                <li>Fraud-resistant provenance tracking</li>
+              </ul>
+
+              <a
+                href="https://github.com/NipunXD/HeritageVault"
+                target="_blank"
+                rel="noreferrer"
+                >View Project</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I actually build with.</h2>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skill-cluster">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span>Python</span>
+              <span>C++</span>
+              <span>TypeScript</span>
+              <span>SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-cluster">
+            <h3>Frontend</h3>
+            <div class="chips">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-cluster">
+            <h3>Backend</h3>
+            <div class="chips">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>Flask</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-cluster">
+            <h3>Cloud & DevOps</h3>
+            <div class="chips">
+              <span>AWS S3</span>
+              <span>AWS EC2</span>
+              <span>Docker</span>
+              <span>Nginx</span>
+              <span>Cloudflare</span>
+            </div>
+          </div>
+
+          <div class="skill-cluster">
+            <h3>Machine Learning</h3>
+            <div class="chips">
+              <span>BERT</span>
+              <span>NLP</span>
+              <span>Regression</span>
+              <span>Classification</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOURNEY -->
+      <section id="journey" class="section journey reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Journey</p>
+          <h2>Early stage. Serious direction.</h2>
+        </div>
+
+        <div class="journey-panel">
+          <div>
+            <p class="journey-label">Focus</p>
+            <p>
+              Building full-stack systems with strong backend architecture and
+              real-world deployment.
+            </p>
+          </div>
+
+          <div>
+            <p class="journey-label">Approach</p>
+            <p>
+              End-to-end ownership — from idea to deployed product with working
+              infrastructure.
+            </p>
+          </div>
+
+          <div>
+            <p class="journey-label">Goal</p>
+            <p>
+              To engineer systems that are scalable, reliable, and impactful in
+              real-world scenarios.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact reveal">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Let’s Build</p>
+            <h2>Interested in systems, AI, or real products? Let’s talk.</h2>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:aroranipun10@gmail.com">aroranipun10@gmail.com</a>
+            <a
+              href="https://www.linkedin.com/in/nipunxd"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/NipunXD"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="./Nipun-Arora-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
